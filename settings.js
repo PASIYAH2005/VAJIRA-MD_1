@@ -11,7 +11,7 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=CMsh0Rqb#s79a11tzRj521ILl53We3BvUt_CKjn4ruY10TNXGjKk' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
@@ -22,10 +22,10 @@ POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratec
 FOOTER: process.env.FOOTER || '‌👨‍💻 ＶＡＪＩＲＡ -  ＭＤ - Ｖ5 👨‍💻',    
 PREFIX: process.env.PREFIX || '.' ,
 LANG:  process.env.LANG || 'SI' ,
-ANTI_BAD: process.env.ANTI_BAD || false  ,
+ANTI_BAD: process.env.ANTI_BAD || true  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
-AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
-AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
+AUTO_TYPING:  process.env.AUTO_TYPING  || true  ,
+AUTO_RECORDING:  process.env.AUTO_RECORDING  || true  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
@@ -40,10 +40,10 @@ BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DET
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || false  ,
 ALIVE: process.env.ALIVE || `default`,     
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
-AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
-AUTO_STICKER: process.env.AUTO_STICKER || false  ,
-WELCOME:  process.env.WELCOME  || false ,
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
+AUTO_VOICE:  process.env.AUTO_VOICE  || true  ,
+AUTO_STICKER: process.env.AUTO_STICKER || true  ,
+WELCOME:  process.env.WELCOME  || true ,
+ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
 };
